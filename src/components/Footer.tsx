@@ -1,49 +1,59 @@
 'use client'
+import React from 'react';
+import Link from 'next/link';
+import {
+  IconBrandGithub,
+  IconBrandGoogle,
+  Icon3dCubeSphere,
+  IconBrandX,
+  IconBrandGmail,
+  IconBrandInstagram,
+  IconBrandLinkedin,
+  IconPhoneCall,
+  IconLocation
+} from "@tabler/icons-react";
 
-import Link from "next/link"
+const Footer = () => {
+  return (
+    <footer className="bg-gray-800 text-white py-8">
+      <div className="container mx-auto px-6">
+        <div className="md:flex justify-between items-center">
+          {/* Left section */}
+          <div className="mb-6 md:mb-0">
+            <h5 className="font-bold text-lg mb-2">Quick Links</h5>
+            <ul className="list-none">
+              <li className="mb-1">
+              <Link href={'/Home'}>Home</Link>
+              </li>
+              <li className="mb-1">
+              <Link href={'/contact'}>Contact Us</Link>
+              </li>
+            </ul>
+          </div>
 
-export const Footer = () => {
-    return(
-        <footer className="bg-gray-800 text-white py-8">
-  <div className="container mx-auto flex flex-wrap justify-between">
-    <div className="footer-section w-full md:w-1/3 px-4">
-      Quick links:
+          {/* Right section */}
+          <div>
+            <h5 className="font-bold text-lg mb-2">Contact Information</h5>
+            <p className="mb-2">Pune,India</p>
+            <p className="mb-2">aprathamm@gmail.com</p>
+            <p className="mb-2">Phone: +91 7387198268</p>
 
-      <div>
-        <Link href={"/projects"}>
-        Projects
-        </Link>
+            {/* Social icons */}
+            <div className="flex space-x-4 mt-4">
+              
+              <Link href={"https://x.com/PrathamAngdlwar"}>< IconBrandX/></Link>
+             
+              
+              <Link href={"https://www.instagram.com/prthm2004/"}><IconBrandInstagram/></Link>
+              
+               <Link href={"https://github.com/prthm20"}><IconBrandGithub/></Link>
+             
+            </div>
+          </div> 
+        </div>
       </div>
-    </div>
-    <div className="footer-section w-full md:w-1/3 px-4">
-       Socials:
+    </footer>
+  );
+};
 
-       <div className="flex-auto">
-        <div>
-        <a href="">X</a>
-        </div>
-
-        <div>
-        <a href="">LinkedIn</a>
-        </div>
-
-        <div>
-        <a href="">Showcase</a>
-        </div>
-
-        <div>
-        <a href="">Instagram</a>
-        </div>
-        </div>
-    </div>
-    <div className="footer-section w-full md:w-1/3 px-4">
-       Contact Me:
-
-       <div>
-        Email: aprathamm@gmail.com
-       </div>
-    </div>
-  </div>
-</footer>
-    )
-}
+export default Footer;

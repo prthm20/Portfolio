@@ -4,7 +4,7 @@ import Image from "next/image";
 import React from "react";
 import { PinContainer } from "./ui/3d-pin";
 
-export function AnimatedPin() {
+export function AnimatedPin2() {
   return (
     <div className="h-[30rem] w-full flex items-center justify-center mt-0">
       <PinContainer
@@ -21,7 +21,7 @@ export function AnimatedPin() {
             </span>
           </div>
           <div>
-            <Image src={'https://images.pexels.com/photos/27272932/pexels-photo-27272932.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'} alt="" width={500} height={500}></Image>
+            <Image src={'https://images.pexels.com/photos/27273020/pexels-photo-27273020.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'} alt="" width={500} height={500}></Image>
           </div>
           <div className="flex flex-1 w-full rounded-lg mt-4 bg-gradient-to-br  " />
         </div>
