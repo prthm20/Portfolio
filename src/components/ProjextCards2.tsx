@@ -8,8 +8,8 @@ export function AnimatedPin2() {
   return (
     <div className="h-[30rem] w-full flex items-center justify-center mt-0">
       <PinContainer
-        title="YTclone"
-        href="https://va-frontend.vercel.app/"
+        title="Travlog"
+        href="https://wonderfull-world-tpe9.vercel.app/"
       >
         <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-[20rem] h-[20rem] ">
           <h3 className="max-w-xs !pb-2 !m-0 font-bold  text-base text-slate-100">
