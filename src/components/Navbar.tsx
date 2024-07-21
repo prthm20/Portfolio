@@ -25,6 +25,7 @@ export function Navbar({ className }: { className?: string }) {
         <MenuItem setActive={setActive} active={active} item="Projects">
           <div className="flex flex-col space-y-4 text-sm">
             <HoveredLink href="https://va-frontend.vercel.app//">VideoApp</HoveredLink>
+            <HoveredLink href="https://wonderfull-world-tpe9.vercel.app/">Travlog</HoveredLink>
           </div>
         </MenuItem>
         </Link>
