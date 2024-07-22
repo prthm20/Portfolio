@@ -15,8 +15,8 @@ export default function Home() {
         <Intro/>
         <GeneralInfo/>
         <ProjectText/>
-        <AnimatedPin/>
         <AnimatedPin2/>
+        <AnimatedPin/>
         <Footer/>
         
       </div>
