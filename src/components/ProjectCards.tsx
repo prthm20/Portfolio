@@ -21,7 +21,7 @@ export function AnimatedPin() {
             </span>
           </div>
           <div>
-            <Image src={'https://images.pexels.com/photos/27272932/pexels-photo-27272932.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'} alt="" width={500} height={500}></Image>
+            <Image src={'https://images.pexels.com/photos/5081404/pexels-photo-5081404.jpeg?auto=compress&cs=tinysrgb&w=600'} alt="" width={500} height={500}></Image>
           </div>
           <div className="flex flex-1 w-full rounded-lg mt-4 bg-gradient-to-br  " />
         </div>
