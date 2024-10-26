@@ -33,7 +33,7 @@ export function Intro() {
 
 
             <p className="text-sm leading-relaxed text-neutral-700 dark:text-neutral-400">
-            "Passionate about transforming ideas into innovative solutions, I specialize in Machine Learning, Deep Learning, and Full Stack Development. With expertise across the entire development stack, I bring a strong foundation in building intelligent systems and deploying scalable, user-friendly applications. My work focuses on harnessing data-driven insights to solve complex challenges, blending technical proficiency with a commitment to impactful, modern design."
+            "Passionate about transforming ideas into innovative solutions, I specialize in Machine Learning, Deep Learning, and Full Stack Development. With expertise across the entire development stack, I bring a strong foundation in building intelligent systems and deploying scalable, user-friendly applications. My work focuses on harnessing data-driven insights to solve complex challenges, blending technical proficiency with a commitment to impactful, modern design.
 
 
             </p>
