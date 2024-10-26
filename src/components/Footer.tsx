@@ -18,18 +18,7 @@ const Footer = () => {
     <footer className="bg-gray-800 text-white py-8">
       <div className="container mx-auto px-6">
         <div className="md:flex justify-between items-center">
-          {/* Left section */}
-          <div className="mb-6 md:mb-0">
-            <h5 className="font-bold text-lg mb-2">Quick Links</h5>
-            <ul className="list-none">
-              <li className="mb-1">
-              <Link href={'/Home'}>Home</Link>
-              </li>
-              <li className="mb-1">
-              <Link href={'/contact-me'}>Contact Us</Link>
-              </li>
-            </ul>
-          </div>
+          
 
           {/* Right section */}
           <div>
