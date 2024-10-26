@@ -208,22 +208,15 @@ const cards = [
   {
     description: "Pratham , Parag",
     title: "Artify",
-    src: "https://assets.aceternity.com/demos/lana-del-rey.jpeg",
+    src: "https://images.pexels.com/photos/102127/pexels-photo-102127.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     ctaText: "Visit",
     ctaLink: "https://artify-art-three.vercel.app/",
     content: () => {
       return (
         <p>
-          Lana Del Rey, an iconic American singer-songwriter, is celebrated for
-          her melancholic and cinematic music style. Born Elizabeth Woolridge
-          Grant in New York City, she has captivated audiences worldwide with
-          her haunting voice and introspective lyrics. <br /> <br /> Her songs
-          often explore themes of tragic romance, glamour, and melancholia,
-          drawing inspiration from both contemporary and vintage pop culture.
-          With a career that has seen numerous critically acclaimed albums, Lana
-          Del Rey has established herself as a unique and influential figure in
-          the music industry, earning a dedicated fan base and numerous
-          accolades.
+          Artify is an innovative web app that blends art and technology to create unique, personalized images through style transfer. Leveraging advanced deep learning techniques with the VGG19 model, Artify allows users to transform their own photos by merging them with the essence of iconic artworks. The result is a captivating fusion of personal expression and artistic influence, rendered through seamless style transfer. Developed with a robust backend powered by Flask and TensorFlow/Keras, and a user-friendly frontend in Next.js.
+
+
         </p>
       );
     },
@@ -231,21 +224,13 @@ const cards = [
   {
     description: "Pratham",
     title: "Travlog",
-    src: "https://assets.aceternity.com/demos/babbu-maan.jpeg",
+    src: "https://images.pexels.com/photos/442559/pexels-photo-442559.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     ctaText: "Visit",
     ctaLink: "https://travlog.top/",
     content: () => {
       return (
         <p>
-          Babu Maan, a legendary Punjabi singer, is renowned for his soulful
-          voice and profound lyrics that resonate deeply with his audience. Born
-          in the village of Khant Maanpur in Punjab, India, he has become a
-          cultural icon in the Punjabi music industry. <br /> <br /> His songs
-          often reflect the struggles and triumphs of everyday life, capturing
-          the essence of Punjabi culture and traditions. With a career spanning
-          over two decades, Babu Maan has released numerous hit albums and
-          singles that have garnered him a massive fan following both in India
-          and abroad.
+          Travlog is a personalized travel planning platform that helps users plan their trips and explore destinations worldwide. Built with Next.js, MongoDB, and APIs like Google Gemini and Pexels, Travlog provides curated information, images, and maps. Users can easily create and generate detailed itineraries that can be emailed directly, making travel planning seamless and enjoyable.
         </p>
       );
     },
@@ -254,7 +239,7 @@ const cards = [
   {
     description: "Pratham",
     title: "Neurocare",
-    src: "https://assets.aceternity.com/demos/metallica.jpeg",
+    src: "https://images.pexels.com/photos/7089020/pexels-photo-7089020.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     ctaText: "Visit",
     ctaLink: "https://ui.aceternity.com/templates",
     content: () => {
@@ -276,20 +261,13 @@ const cards = [
   {
     description: "Pratham,Parag",
     title:"Briefly",
-    src: "https://assets.aceternity.com/demos/led-zeppelin.jpeg",
+    src: "https://images.pexels.com/photos/159832/justice-law-case-hearing-159832.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     ctaText: "Visit",
-    ctaLink: "https://ui.aceternity.com/templates",
+    ctaLink: "https://briefly-law.vercel.app/",
     content: () => {
       return (
         <p>
-          Led Zeppelin, a legendary British rock band, is renowned for their
-          innovative sound and profound impact on the music industry. Formed in
-          London in 1968, they have become a cultural icon in the rock music
-          world. <br /> <br /> Their songs often reflect a blend of blues, hard
-          rock, and folk music, capturing the essence of the 1970s rock era.
-          With a career spanning over a decade, Led Zeppelin has released
-          numerous hit albums and singles that have garnered them a massive fan
-          following both in the United Kingdom and abroad.
+          Briefly is an intelligent law bot designed to provide accurate and context-aware responses to legal queries. Utilizing a fine-tuned question-answering model on a comprehensive constitutional text dataset, Briefly helps users navigate complex legal concepts with ease. Whether for research, education, or practical inquiries, Briefly aims to make legal information more accessible and understandable.
         </p>
       );
     },
