@@ -14,10 +14,7 @@ export function GeneralInfo() {
         text="one line at a time"
         revealText="Coding the future"
       >
-        <TextRevealCardTitle className="font-mono">
-        Web development is about constantly learning and evolving, embracing challenges as opportunities to innovate
-         and create meaningful experiences on the digital frontier.
-        </TextRevealCardTitle>
+       
         <TextRevealCardDescription>
           .
         </TextRevealCardDescription>

@@ -26,7 +26,7 @@ const Footer = () => {
               <Link href={'/Home'}>Home</Link>
               </li>
               <li className="mb-1">
-              <Link href={'/contact'}>Contact Us</Link>
+              <Link href={'/contact-me'}>Contact Us</Link>
               </li>
             </ul>
           </div>

@@ -1,42 +1,36 @@
-'use client'
+'use client';
 
-import React, { useState } from "react";
-import { HoveredLink, Menu, MenuItem, ProductItem } from "./ui/navbar-menu";
-import { cn } from "@/utils/cn";
+import React from "react";
+import { FaInstagram, FaTwitter, FaGithub } from "react-icons/fa"; // Assuming you're using react-icons
 import Link from "next/link";
-
-
+import {
+  IconBrandGithub,
+  IconBrandGoogle,
+  Icon3dCubeSphere,
+  IconBrandX,
+  IconBrandGmail,
+  IconBrandInstagram,
+  IconBrandLinkedin,
+  IconPhoneCall,
+  IconLocation
+} from "@tabler/icons-react"
 
 export function Navbar({ className }: { className?: string }) {
-  const [active, setActive] = useState<string | null>(null);
   return (
-    <div
-      className={cn("fixed top-10 inset-x-0 max-w-2xl mx-auto z-50 ", className)}
-    >
-      <Menu setActive={setActive}>
-        <Link href={"/"}>
-        <MenuItem setActive={setActive} active={active} item="Home">
-          
-          </MenuItem>
-        </Link>
-        
-        
-        <Link href={"/projects"}>
-        <MenuItem setActive={setActive} active={active} item="Projects">
-          <div className="flex flex-col space-y-4 text-sm">
-            <HoveredLink href="https://va-frontend.vercel.app//">VideoApp</HoveredLink>
-            <HoveredLink href="https://wonderfull-world-tpe9.vercel.app/">Travlog</HoveredLink>
-          </div>
-        </MenuItem>
-        </Link>
+    <div className={`fixed top-5 right-5 flex space-x-4 ${className} `}>
 
-        <Link href={"/contact-me"}>
-        <MenuItem setActive={setActive} active={active} item="Contact Me">
-          
-          </MenuItem>
-        </Link>
 
-      </Menu>
+     {/* Social icons */}
+     <div className="flex space-x-4 mt-4 bg-white">
+              
+              <Link href={"https://x.com/PrathamAngdlwar"}>< IconBrandX/></Link>
+             
+              
+              <Link href={"https://www.instagram.com/prthm2004/"}><IconBrandInstagram/></Link>
+              
+               <Link href={"https://github.com/prthm20"}><IconBrandGithub/></Link>
+             
+            </div>
     </div>
   );
 }
